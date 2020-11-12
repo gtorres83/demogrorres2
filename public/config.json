@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "http://ec7bb02200b9.ngrok.io/execute",
+          "url": "https://ec7bb02200b9.ngrok.io/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -48,7 +48,7 @@
         "useJwt": false
       },
       "validate": {
-        "url": "http://ec7bb02200b9.ngrok.io/validate",
+        "url": "https://ec7bb02200b9.ngrok.io/validate",
         "verb": "POST",
         "useJwt": false
       }
