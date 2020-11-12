@@ -33,17 +33,17 @@
     "configurationArguments": {
       
       "save": {
-        "url": "http://ec7bb02200b9.ngrok.io/save",
+        "url": "https://ec7bb02200b9.ngrok.io/save",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "http://ec7bb02200b9.ngrok.io/publish",
+        "url": "https://ec7bb02200b9.ngrok.io/publish",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "http://ec7bb02200b9.ngrok.io/stop",
+        "url": "https://ec7bb02200b9.ngrok.io/stop",
            "verb": "POST",
         "useJwt": false
       },
