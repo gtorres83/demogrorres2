@@ -17,30 +17,29 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "{{Contact.Attribute.CustomActivity.EmailAddress}}"
+                    "emailAddress": "ParametrosTest"
                 }									
 			],
           "outArguments": [],
-          "url": "https://<your-domain-here>/journeybuilder/execute",
+          "url": "https://dummy.restapiexample.com/api/v1/employees",
            "verb": "POST",
             "body": "",
             "header": "",
             "format": "json",
-            "useJwt": true,
+            "useJwt": false,
             "timeout": 10000
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "__application_key_from_appcenter_here__",
       "save": {
         "url": "https://<your-domain-here>/journeybuilder/save",
           "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
        "publish": {
         "url": "https://<your-domain-here>/journeybuilder/publish",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
        },
       "stop": {
         "url": "https://<your-domain-here>/journeybuilder/stop",
@@ -50,7 +49,7 @@
       "validate": {
         "url": "https://<your-domain-here>/journeybuilder/validate",
         "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       }
     },
     "wizardSteps": [
