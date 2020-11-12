@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Template",
+            "name": "Template GTorres",
           "description": "A Template for a custom Journey Builder activity",
           "step1Label": "Configure Activity"
         }
@@ -17,20 +17,21 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "ParametrosTest"
+                    "emailAddress": "{{Contact.Attribute.CustomActivity.EmailAddress}}"
                 }									
 			],
           "outArguments": [],
-          "url": "https://dummy.restapiexample.com/api/v1/employees",
+          "url": "https://<your-domain-here>/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
             "format": "json",
-            "useJwt": false,
+            "useJwt": true,
             "timeout": 10000
         }
     },
     "configurationArguments": {
+      
       "save": {
         "url": "https://<your-domain-here>/journeybuilder/save",
           "verb": "POST",
@@ -44,7 +45,7 @@
       "stop": {
         "url": "https://<your-domain-here>/journeybuilder/stop",
            "verb": "POST",
-        "useJwt": true
+        "useJwt": false
       },
       "validate": {
         "url": "https://<your-domain-here>/journeybuilder/validate",
