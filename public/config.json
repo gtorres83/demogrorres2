@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://<your-domain-here>/journeybuilder/execute",
+          "url": "http://ec7bb02200b9.ngrok.io/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       
       "save": {
-        "url": "https://<your-domain-here>/journeybuilder/save",
+        "url": "http://ec7bb02200b9.ngrok.io/save",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "https://<your-domain-here>/journeybuilder/publish",
+        "url": "http://ec7bb02200b9.ngrok.io/publish",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "https://<your-domain-here>/journeybuilder/stop",
+        "url": "http://ec7bb02200b9.ngrok.io/stop",
            "verb": "POST",
         "useJwt": false
       },
       "validate": {
-        "url": "https://<your-domain-here>/journeybuilder/validate",
+        "url": "http://ec7bb02200b9.ngrok.io/validate",
         "verb": "POST",
         "useJwt": false
       }
