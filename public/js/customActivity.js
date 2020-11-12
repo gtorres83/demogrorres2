@@ -58,7 +58,7 @@ define([
 
     function onGetTokens(tokens) {
         console.log(tokens);
-        authTokens = tokens;
+        //authTokens = tokens;
     }
 
     function onGetEndpoints(endpoints) {
