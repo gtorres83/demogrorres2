@@ -66,12 +66,13 @@ define([
     }
 
     function save() {
+        console.log('save entry gtorres');
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
 
         payload['arguments'].execute.inArguments = [{
-            "tokens": authTokens,
-            "emailAddress": "{{Contact.Attribute.PostcardJourney.EmailAddress}}"
+           // "tokens": authTokens,
+            "emailAddress": "g_torres@yahoo.com.co"
         }];
         
         payload['metaData'].isConfigured = true;
