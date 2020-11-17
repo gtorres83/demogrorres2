@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Template GTorres",
+            "name": "Template GTorres 2",
           "description": "A Template for a custom Journey Builder activity",
           "step1Label": "Configure Activity"
         }
@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://ec7bb02200b9.ngrok.io/execute",
+          "url": "https://01c296d0498a.ngrok.io/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       
       "save": {
-        "url": "https://ec7bb02200b9.ngrok.io/save",
+        "url": "https://01c296d0498a.ngrok.io/save",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "https://ec7bb02200b9.ngrok.io/publish",
+        "url": "https://01c296d0498a.ngrok.io/publish",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "https://ec7bb02200b9.ngrok.io/stop",
+        "url": "https://01c296d0498a.ngrok.io/stop",
            "verb": "POST",
         "useJwt": false
       },
       "validate": {
-        "url": "https://ec7bb02200b9.ngrok.io/validate",
+        "url": "https://01c296d0498a.ngrok.io/validate",
         "verb": "POST",
         "useJwt": false
       }
