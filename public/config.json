@@ -17,7 +17,12 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "gtorres@uao.edu.co"
+                    "emailAddress": "gtorres@uao.edu.co",
+   		    "mensaje":"hola",
+		    "centrocosto":"DTI",
+		    "usuario":"gtorres",
+		    "aplicacion":"WEB",
+		    "celular":"3162940370"
                 }									
 			],
           "outArguments": [],
