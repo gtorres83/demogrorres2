@@ -24,11 +24,11 @@
           "url": "https://d8af1d19a25c.ngrok.io/execute",
            "verb": "POST",
             "body": "{
-		    "mensaje":"hola",
-		    "centrocosto":"DTI",
-		    "usuario":"gtorres",
-		    "aplicacion":"WEB",
-		    "celular":"3162940370"
+		    'mensaje':'hola',
+		    'centrocosto':'DTI',
+		    'usuario':'gtorres',
+		    'aplicacion':'WEB',
+		    'celular':'3162940370'
 		}",
             "header": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
             "format": "json",
