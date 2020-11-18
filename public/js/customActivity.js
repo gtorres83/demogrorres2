@@ -72,7 +72,12 @@ define([
 
         payload['arguments'].execute.inArguments = [{
            // "tokens": authTokens,
-            "emailAddress": "g_torres@yahoo.com.co"
+            "emailAddress": "g_torres@yahoo.com.co",
+            "mensaje":"hola1",
+            "centrocosto":"DTI",
+            "usuario":"gtorres",
+            "aplicacion":"WEB",
+            "celular":"3162940370"
         }];
         
         payload['metaData'].isConfigured = true;
