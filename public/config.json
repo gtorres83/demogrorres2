@@ -21,10 +21,16 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://01c296d0498a.ngrok.io/execute",
+          "url": "https://d8af1d19a25c.ngrok.io/execute",
            "verb": "POST",
-            "body": "",
-            "header": "",
+            "body": "{
+		    "mensaje":"hola",
+		    "centrocosto":"DTI",
+		    "usuario":"gtorres",
+		    "aplicacion":"WEB",
+		    "celular":"3162940370"
+		}",
+            "header": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
             "format": "json",
             "useJwt": false,
             "timeout": 10000
@@ -33,22 +39,22 @@
     "configurationArguments": {
       
       "save": {
-        "url": "https://01c296d0498a.ngrok.io/save",
+        "url": "https://d8af1d19a25c.ngrok.io/save",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "https://01c296d0498a.ngrok.io/publish",
+        "url": "https://d8af1d19a25c.ngrok.io/publish",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "https://01c296d0498a.ngrok.io/stop",
+        "url": "https://d8af1d19a25c.ngrok.io/stop",
            "verb": "POST",
         "useJwt": false
       },
       "validate": {
-        "url": "https://01c296d0498a.ngrok.io/validate",
+        "url": "https://d8af1d19a25c.ngrok.io/validate",
         "verb": "POST",
         "useJwt": false
       }
