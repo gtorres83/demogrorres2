@@ -17,12 +17,12 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "gtorres@uao.edu.co",
-   		    "mensaje":"hola",
-		    "centrocosto":"DTI",
+                    "emailAddress": "{{Contact.Attribute.Mercadeoprueba.Correo}}",
+		    "mensaje":"{{Contact.Default.Email}}",
+		    "centrocosto":"{{Contact.Attribute.Mercadeoprueba.celular}}",
 		    "usuario":"gtorres",
 		    "aplicacion":"WEB",
-		    "celular":"3162940370"
+		    "celular":"{{Contact.Default.PhoneNumber}}"
                 }									
 			],
           "outArguments": [],
