@@ -72,9 +72,9 @@ define([
 
         payload['arguments'].execute.inArguments = [{
            // "tokens": authTokens,
-            "emailAddress": "g_torres@yahoo.com.co",
-            "mensaje":"hola1",
-            "centrocosto":"DTI",
+            "emailAddress": "{{Contact.Attribute.Mercadeoprueba.Correo}}",
+            "mensaje":"{{Contact.Default.Email}}",
+            "centrocosto":"{{Contact.Attribute.Mercadeoprueba.celular}}",
             "usuario":"gtorres",
             "aplicacion":"WEB",
             "celular":"3162940370"
