@@ -8,7 +8,6 @@ define([
     var connection = new Postmonger.Session();
     var authTokens = {};
     var payload = {};
-    var celularP ='';
     $(window).ready(onRender);
 
     connection.on('initActivity', initialize);
@@ -47,11 +46,7 @@ define([
             $.each(inArgument, function (key, val) {
                 
               console.log("key= "+key+"  val="+val);
-               if (key === 'celular') {
-                    celularP = val;
-                   console.log("entre celular -->"+celularP);
-                }
-            });
+                });
         });
 
         connection.trigger('updateButton', {
@@ -71,12 +66,11 @@ define([
     }
 
     function save() {
-        console.log('save entry gtorres cel -->');
+        console.log('save entry gtorres cel -->c');
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
 
         payload['arguments'].execute.inArguments = [{
-           // "tokens": authTokens,
             "emailAddress": "{{Contact.Attribute.Mercadeoprueba.Correo}}",
             "mensaje":"{{Contact.Default.Email}}",
             "centrocosto":"{{Contact.Attribute.Mercadeoprueba.celular}}",
