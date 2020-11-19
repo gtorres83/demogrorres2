@@ -26,10 +26,10 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://d8af1d19a25c.ngrok.io/execute",
+          "url": "https://d449d08c120c.ngrok.io/execute",
            "verb": "POST",
             "body": "",
-            "header": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
+            "headers": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
             "format": "json",
             "useJwt": false,
             "timeout": 10000
@@ -38,22 +38,22 @@
     "configurationArguments": {
       
       "save": {
-        "url": "https://d8af1d19a25c.ngrok.io/save",
+        "url": "https://d449d08c120c.ngrok.io/save",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "https://d8af1d19a25c.ngrok.io/publish",
+        "url": "https://d449d08c120c.ngrok.io/publish",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "https://d8af1d19a25c.ngrok.io/stop",
+        "url": "https://d449d08c120c.ngrok.io/stop",
            "verb": "POST",
         "useJwt": false
       },
       "validate": {
-        "url": "https://d8af1d19a25c.ngrok.io/validate",
+        "url": "https://d449d08c120c.ngrok.io/validate",
         "verb": "POST",
         "useJwt": false
       }
