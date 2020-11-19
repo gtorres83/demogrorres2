@@ -71,7 +71,7 @@ define([
     }
 
     function save() {
-        console.log('save entry gtorres cel -->'+celularP);
+        console.log('save entry gtorres cel -->');
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
 
@@ -81,7 +81,7 @@ define([
             "mensaje":"{{Contact.Default.Email}}",
             "centrocosto":"{{Contact.Attribute.Mercadeoprueba.celular}}",
             "usuario":"gtorres",
-            "aplicacion":celularP,
+            "aplicacion":"rrrr",
             "celular":"{{Contact.Default.PhoneNumber}}"
         }];
         
