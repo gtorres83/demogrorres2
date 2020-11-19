@@ -45,6 +45,7 @@ define([
         $.each(inArguments, function (index, inArgument) {
             $.each(inArgument, function (key, val) {
                 
+              console.log("key= "+key+"  val="+val);
               
             });
         });
@@ -77,7 +78,7 @@ define([
             "centrocosto":"{{Contact.Attribute.Mercadeoprueba.celular}}",
             "usuario":"gtorres",
             "aplicacion":"WEB",
-            "celular":"3162940370"
+            "celular":"{{Contact.Default.PhoneNumber}}"
         }];
         
         payload['metaData'].isConfigured = true;
