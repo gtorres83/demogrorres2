@@ -17,7 +17,7 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "{{Contact.Attribute.Mercadeoprueba.Correo}}",
+                    "emailAddress":"{{Contact.Attribute.Mercadeoprueba.Correo}}",
 		    "mensaje":"{{Contact.Default.Email}}",
 		    "centrocosto":"{{Contact.Attribute.Mercadeoprueba.celular}}",
 		    "usuario":"gtorres",
@@ -26,7 +26,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://d449d08c120c.ngrok.io/execute",
+          "url": "https://19f3908625a9.ngrok.io/execute",
            "verb": "POST",
             "body": "",
             "headers": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
@@ -38,22 +38,22 @@
     "configurationArguments": {
       
       "save": {
-        "url": "https://d449d08c120c.ngrok.io/save",
+        "url": "https://19f3908625a9.ngrok.io/save",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "https://d449d08c120c.ngrok.io/publish",
+        "url": "https://19f3908625a9.ngrok.io/publish",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "https://d449d08c120c.ngrok.io/stop",
+        "url": "https://19f3908625a9.ngrok.io/stop",
            "verb": "POST",
         "useJwt": false
       },
       "validate": {
-        "url": "https://d449d08c120c.ngrok.io/validate",
+        "url": "https://19f3908625a9.ngrok.io/validate",
         "verb": "POST",
         "useJwt": false
       }
