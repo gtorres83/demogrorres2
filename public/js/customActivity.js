@@ -45,7 +45,6 @@ define([
         $.each(inArguments, function (index, inArgument) {
             $.each(inArgument, function (key, val) {
                 
-              console.log("key= "+key+"  val="+val);
                 });
         });
 
@@ -66,17 +65,16 @@ define([
     }
 
     function save() {
-        console.log('save entry gtorres cel -->c');
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
 
         payload['arguments'].execute.inArguments = [{
-            "emailAddress": "{{Contact.Attribute.Mercadeoprueba.Correo}}",
-            "mensaje":"{{Contact.Default.Email}}",
-            "centrocosto":"{{Contact.Attribute.Mercadeoprueba.celular}}",
+            "emailAddress": "email",
+            "mensaje":"mensaje",
+            "centrocosto":"centro",
             "usuario":"gtorres",
             "aplicacion":"rrrr",
-            "celular":"{{Contact.Default.PhoneNumber}}"
+            "celular":"31733333333"
         }];
         
         payload['metaData'].isConfigured = true;
