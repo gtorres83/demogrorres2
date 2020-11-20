@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Template GTorres 2",
+            "name": "Template GTorres 3",
           "description": "A Template for a custom Journey Builder activity",
           "step1Label": "Configure Activity"
         }
@@ -17,12 +17,12 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress":"{{Contact.Attribute.Mercadeoprueba.Correo}}",
-		    "mensaje":"{{Contact.Default.Email}}",
-		    "centrocosto":"{{Contact.Attribute.Mercadeoprueba.celular}}",
-		    "usuario":"gtorres",
-		    "aplicacion":"WEB",
-		    "celular":"{{Contact.Default.PhoneNumber}}"
+                    "emailAddress":"email1",
+		    "mensaje":"mensaje1",
+		    "centrocosto":"centro1",
+		    "usuario":"gtorres1",
+		    "aplicacion":"WEB1",
+		    "celular":"celular1"
                 }									
 			],
           "outArguments": [],
