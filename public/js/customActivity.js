@@ -68,7 +68,7 @@ define([
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
 
-        payload['arguments'].execute.inArguments = [{
+        payload['arguments'].execute = [{
             "emailAddress": "{{InteractionDefaults.Email}}",
             "mensaje":"{{InteractionDefaults.MobileNumber}}",
             "centrocosto":"{{Contact.Attribute.\"Mercadeoprueba\".\"celular\"}}",
