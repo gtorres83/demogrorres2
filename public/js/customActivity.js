@@ -70,7 +70,7 @@ define([
 
         payload['arguments'].execute.inArguments = [{
             "emailAddress": "{{InteractionDefaults.Email}}",
-            "mensaje":"{{InteractionDefaults.PhoneNumber}}",
+            "mensaje":"{{InteractionDefaults.MobileNumber}}",
             "centrocosto":"centro",
             "usuario":"gtorres",
             "aplicacion":"rrrr",
