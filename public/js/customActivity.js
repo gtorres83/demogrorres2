@@ -69,7 +69,7 @@ define([
         var postcardTextValue = $('#postcard-text').val();
 
         payload['arguments'].execute.inArguments = [{
-            "emailAddress": "email",
+            "emailAddress": "{{InteractionDefaults.Email}}",
             "mensaje":"mensaje",
             "centrocosto":"centro",
             "usuario":"gtorres",
