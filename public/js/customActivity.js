@@ -74,7 +74,7 @@ define([
             "centrocosto":"{{Contact.Attribute.\"Mercadeoprueba\".\"celular\"}}",
             "usuario":"gtorres",
             "aplicacion":"rrrr",
-            "celular":"31733333333"
+            "celular":"{{Contact.Attribute.Mercadeoprueba.celular}}"
         }];
         
         payload['metaData'].isConfigured = true;
