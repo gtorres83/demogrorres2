@@ -67,13 +67,14 @@ define([
     function save() {
         var postcardURLValue = $('#postcard-url').val();
         var postcardTextValue = $('#postcard-text').val();
+        var postMessageValue =  getMessage();
 
         payload['arguments'].execute.inArguments = [{
             "emailAddress": "{{InteractionDefaults.Email}}",
             "mensaje":"{{InteractionDefaults.MobileNumber}}",
             "centrocosto":"{{Contact.Attribute.\"Mercadeoprueba\".\"celular\"}}",
             "usuario":"gtorres",
-            "aplicacion":"rrrr",
+            "aplicacion":postMessageValue,
             "celular":"{{Contact.Attribute.Mercadeoprueba.celular}}"
         }];
         
@@ -83,5 +84,8 @@ define([
         connection.trigger('updateActivity', payload);
     }
 
+     function getMessage() {
+        return "mensaje para enviar";//$('#select1').find('option:selected').attr('value').trim();
+    }
 
 });
