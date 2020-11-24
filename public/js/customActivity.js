@@ -85,7 +85,7 @@ define([
     }
 
      function getMessage() {
-        return "mensaje para enviar";//$('#select1').find('option:selected').attr('value').trim();
+        return $("#myInput").val();//"mensaje para enviar";//$('#select1').find('option:selected').attr('value').trim();
     }
 
 });
