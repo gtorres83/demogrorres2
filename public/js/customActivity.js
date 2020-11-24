@@ -71,11 +71,11 @@ define([
 
         payload['arguments'].execute.inArguments = [{
             "emailAddress": "{{InteractionDefaults.Email}}",
-            "mensaje":"{{InteractionDefaults.MobileNumber}}",
-            "centrocosto":"{{Contact.Attribute.\"Mercadeoprueba\".\"celular\"}}",
+            "mensaje":postMessageValue,
+            "centrocosto":"DTI",
             "usuario":"gtorres",
-            "aplicacion":postMessageValue,
-            "celular":"{{Contact.Attribute.Mercadeoprueba.celular}}"
+            "aplicacion":"WEB",
+            "celular":"{{InteractionDefaults.MobileNumber}}"
         }];
         
         payload['metaData'].isConfigured = true;
