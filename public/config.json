@@ -26,7 +26,7 @@
                 }									
 			],
           "outArguments": [{"mensaje":""}],
-          "url": "https://8ee290e355db.ngrok.io/execute",
+          "url": "https://801b99261f02.ngrok.io/execute",
            "verb": "POST",
             "body": "",
             "headers": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
@@ -38,22 +38,22 @@
     "configurationArguments": {
       
       "save": {
-        "url": "https://8ee290e355db.ngrok.io/save",
+        "url": "https://801b99261f02.ngrok.io/save",
           "verb": "POST",
         "useJwt": false
        },
        "publish": {
-        "url": "https://8ee290e355db.ngrok.io/publish",
+        "url": "https://801b99261f02.ngrok.io/publish",
            "verb": "POST",
         "useJwt": false
        },
       "stop": {
-        "url": "https://8ee290e355db.ngrok.io/stop",
+        "url": "https://801b99261f02.ngrok.io/stop",
            "verb": "POST",
         "useJwt": false
       },
       "validate": {
-        "url": "https://8ee290e355db.ngrok.io/validate",
+        "url": "https://801b99261f02.ngrok.io/validate",
         "verb": "POST",
         "useJwt": false
       }
