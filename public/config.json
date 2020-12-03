@@ -37,11 +37,7 @@
     },
     "configurationArguments": {
       
-       "publish": {
-        "url": "https://c04ef31e202b.ngrok.io/publish",
-           "verb": "POST",
-        "useJwt": false
-       }
+      
     },
     "wizardSteps": [
         { "label": "Configure Activity", "key": "step1" }
