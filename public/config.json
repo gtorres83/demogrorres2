@@ -37,7 +37,7 @@
     },
     "configurationArguments": {
        "publish": {
-        "url": "https://c04ef31e202b.ngrok.io/publish",
+        "url": "http://webservidev.uao.edu.co:8080/IntegradorCRMUtil/rest/controllers/mc/journey/smsuao/publish",
         "verb": "POST",
         "useJwt": false
        }
