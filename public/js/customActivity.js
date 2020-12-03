@@ -75,7 +75,8 @@ define([
             "centrocosto":"DTI",
             "usuario":"gtorres",
             "aplicacion":"WEB",
-            "celular":"{{InteractionDefaults.MobileNumber}}"
+            "celular":"{{InteractionDefaults.MobileNumber}}",
+            "tipoMensaje": 2
         }];
         
         payload['metaData'].isConfigured = true;
