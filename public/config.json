@@ -26,7 +26,7 @@
                 }									
 			],
           "outArguments": [{"mensaje":""}],
-          "url": "https://801b99261f02.ngrok.io/execute",
+          "url": "https://c04ef31e202b.ngrok.io/execute",
            "verb": "POST",
             "body": "",
             "headers": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
@@ -37,26 +37,11 @@
     },
     "configurationArguments": {
       
-      "save": {
-        "url": "https://801b99261f02.ngrok.io/save",
-          "verb": "POST",
-        "useJwt": false
-       },
        "publish": {
-        "url": "https://801b99261f02.ngrok.io/publish",
+        "url": "https://c04ef31e202b.ngrok.io/publish",
            "verb": "POST",
         "useJwt": false
-       },
-      "stop": {
-        "url": "https://801b99261f02.ngrok.io/stop",
-           "verb": "POST",
-        "useJwt": false
-      },
-      "validate": {
-        "url": "https://801b99261f02.ngrok.io/validate",
-        "verb": "POST",
-        "useJwt": false
-      }
+       }
     },
     "wizardSteps": [
         { "label": "Configure Activity", "key": "step1" }
