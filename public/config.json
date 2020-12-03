@@ -26,7 +26,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "http://webservidev.uao.edu.co:8080/IntegradorCRMUtil/rest/controllers/aws/sms/sfdc/enviar",
+          "url": "https://ab904663b3db.ngrok.io/execute",
            "verb": "POST",
             "body": "",
             "headers": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
@@ -37,7 +37,7 @@
     },
     "configurationArguments": {
        "publish": {
-        "url": "http://webservidev.uao.edu.co:8080/IntegradorCRMUtil/rest/controllers/mc/journey/smsuao/publish",
+        "url": "https://ab904663b3db.ngrok.io/publish",
         "verb": "POST",
         "useJwt": false
        }
