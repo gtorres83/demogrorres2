@@ -70,7 +70,6 @@ define([
         var postMessageValue =  getMessage();
 
         payload['arguments'].execute.inArguments = [{
-            "emailAddress": "{{InteractionDefaults.Email}}",
             "mensaje":postMessageValue,
             "centrocosto":"DTI",
             "usuario":"gtorres",
