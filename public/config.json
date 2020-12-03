@@ -26,7 +26,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://c04ef31e202b.ngrok.io/execute",
+          "url": "http://webservidev.uao.edu.co:8080/IntegradorCRMUtil/rest/controllers/aws/sms/sfdc/enviar",
            "verb": "POST",
             "body": "",
             "headers": "Authorization: Basic c2FsZXNmb3JjZS51YW86Y3ItJFVwM2VwM2Vo",
