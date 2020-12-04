@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-          "name": "Custom SMS UAO",
+          "name": "SMS UAO",
           "description": "A Template for a custom Journey Builder activity",
           "step1Label": "Configure Activity"
         }
@@ -37,7 +37,7 @@
     },
     "configurationArguments": {
        "publish": {
-        "url": "https://ab904663b3db.ngrok.io/publish",
+        "url": "https://aplicaciones.uao.edu.co/IntegradorCRMUtil/rest/controllers/mc/journey/smsuao/publish",
         "verb": "POST",
         "useJwt": false
        }
